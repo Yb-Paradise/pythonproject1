@@ -1,5 +1,5 @@
 
-temprature = 45
+temprature = float(input("Enter Temperature:"))
 
 if temprature > 25 :
     print("it is too hot")
