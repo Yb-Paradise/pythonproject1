@@ -5,3 +5,11 @@ if year % 4 == 0:
 else:
     print(year,"is now a leap year")
 # a program to check whether a letter is a consonant or a vowel
+letter="b"
+letter=letter.lower()
+if letter in ["a","e","i","o","u"]:
+    print(letter,"is a vowel")
+elif letter.isalpha():
+    print(letter,"is a consonant")
+else:
+    print("Error")
